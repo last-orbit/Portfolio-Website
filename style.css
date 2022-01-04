@@ -157,7 +157,7 @@ a:active {
     text-align: center;
     flex-direction: column;
     background-color: var(--text-black);
-    max-width: 384px;
+    max-width: 374px;
     height: 472px;
     margin: 0 auto 20px auto;
     border-radius: 15px;
@@ -200,10 +200,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-}
-
-.about{
-    height: 300px;
 }
 
 .about h1{
@@ -255,6 +251,7 @@ input[type=email]{
     justify-content: flex-start;
     align-items: flex-start;
     align-self: flex-start;
+    border: 1px solid var(--text-white);
 }
 
 textarea.subject{
@@ -262,7 +259,6 @@ textarea.subject{
     border-radius: 10px;
     margin: 10px 0px 15px 0px;
     padding: 5px 13px 0px 7px;
-
 }
 
 .subject{
@@ -280,6 +276,7 @@ button{
     align-items: center;
     border-radius: 4px;
     cursor: pointer;
+    border: 1px solid var(--text-white);
 }
 
 .submit{
