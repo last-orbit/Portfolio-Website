@@ -1,0 +1,176 @@
+<?php
+if($_POST["message"]) {
+mail("your@email.address", "Here is the subject line",
+$_POST["insert your message here"]. "From: an@email.address");
+}
+?>
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTC+1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <link rel="icon" href="./images/Logo/Logo 3.png" sizes="32x32" type="image/png">
+        <link rel="stylesheet" href="./style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/d512cc8bc1.js" crossorigin="anonymous"></script>
+
+        <title>Robert Ortiz | Web-Dev</title>
+    </head>
+    <body>
+    <nav>
+        <img src="./images/Logo/Robert Ortiz.png" alt="">
+        <div class="nav-options">
+            <a href="#Home">Home</a>
+            <a href="#Projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </nav>
+    <div class="parent-container" id="Home">
+    <div class="main-header">
+        <img src="./images/Profile 3.jpg" alt="" width="300px" height="300px" class="headshot">
+        <div class="main-blurb">
+            <h1>Hey I'm Robert, I used to build Theatre Sets. Now I build websites too... Come and check it out!</h1>
+            <div class="icons">
+                <a href="https://github.com/last-orbit" class="github" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:lastorbit1@gmail.com" class="email" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/robert-ortiz-41490a178/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>              
+        </div> 
+    </div>
+    <div class="project" id="Projects">
+        <h1 class="header">Featured Projects</h1>
+        <div class="project-section">            <div class="img-card">
+            <img src="./images/Screenshots/FAQ screenshot.JPG" alt="FAQ" width="384" height="180">
+            <h2>FAQ accordion card</h2>
+            <p>Create an FAQ page with accordion and have responses open and close</p>
+            <div class="built-with">
+                <h3>Built with</h3>
+                <div class="code">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                </div>
+            </div>
+            <div class="link-code">
+                <a href="https://github.com/last-orbit/FAQ-FEM" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a>
+            </div>
+        </div>
+        <div class="img-card">
+            <img src="./images/Screenshots/SPS screenshot.JPG" alt="Social-Proof-Section" width="384" height="180">
+            <h2>Social proof Section</h2>
+            <p>Create a social proof section for a landing page  </p>
+            <div class="built-with">
+                <h3>Built with</h3>
+                <div class="code">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="link-code">
+                <a href="https://github.com/last-orbit/SPS-FEM" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a>
+            </div>
+        </div>
+        <div class="img-card">
+            <img src="./images/Screenshots/Profile Card Component.JPG" alt="Profile-Card" width="384" height="180">
+            <h2>Profile Card</h2>
+            <p>Create a static profile card with responsive design</p>
+            <div class="built-with">
+                <h3>Built with</h3>
+                <div class="code">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="link-code">
+                <a href="https://github.com/last-orbit/Profile-Card-Component-FEM" target="_blank"><i class="fab fa-github" ></i></a>
+                <a href="" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a>
+            </div>
+        </div>
+        <div class="img-card">
+            <img src="./images/Screenshots/3-column Preview completed.JPG" alt="3-Column-Preview" width="384" height="180">
+            <h2>3-Column Preview</h2>
+            <p>Create a 3-column preview of  different cars.</p>
+            <div class="built-with">
+                <h3>Built with</h3>
+                <div class="code">
+                    <p>HTML</p>
+                    <p>CSS</p>
+
+                </div>
+            </div>
+            <div class="link-code">
+                <a href="https://github.com/last-orbit/3CPC-FEM" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a>
+            </div>
+        </div>
+        <div class="img-card">
+            <img src="./images/Screenshots/Stats preview card component completed.JPG" alt="Stats-Preview-Card" width="384" height="180">
+            <h2>Stats Preview Card</h2>
+            <p>Create a static statistical preview for a company</p>
+            <div class="built-with">
+                <h3>Built with</h3>
+                <div class="code">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="link-code">
+                <a href="https://github.com/last-orbit/SPC-FEM" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a>
+            </div>
+        </div>
+        <div class="img-card">
+            <img src="./images/Screenshots/Order Summary Component.JPG" alt="Order-Summary-Component" width="384" height="180">
+            <h2>Order Summary</h2>
+            <p>Create a static order summary page for a music website </p>
+            <div class="built-with">
+                <h3>Built with</h3>
+                <div class="code">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="link-code">
+                <a href="https://github.com/last-orbit/FEM-OSC" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h1 class="header">About me</h1>
+        <p>I'm a self-taught developer, I primarily focus in Front-End Development. I would like to expand more into back-end development at some point to become a Fullstack Developer. I built my life around making Theatre, studied it and became a Technical Director. When the stages went dark, I had nothing to lose and relocated to Paris, while experimenting with coding. Here I am now, looking to make it a career.</p>
+    </div>
+    <div class="contact" id="Contact">
+        <h1 class="header">Contact</h1>
+        <p>Want to reach out? Fill out the form below and don't forget to click send!</p>
+        <div class="style-form">
+            <form action="https://formsubmit.co/lastorbit1@gmail.com" method="post" autocomplete="off">
+            <div class="form">
+                Name<input type="text" name="name" placeholder="Full Name" maxlength="30" required>
+                Your Email<input type="email" name="email" placeholder="Email Address">
+                Your Message<textarea class="subject" type="text" 
+                placeholder="Your Message" rows="3" maxlength="200" name="message" spellcheck="false"
+                style="position: relative;"></textarea>
+            </div>
+            <div class="submit"><button type="submit" class="submit">Send</button></div>            
+        </div>
+    </form>
+        <p>Or wanting to send it from your own email? just click <a href="mailto:lastorbit1@gmail.com" class="here">here</a></p>
+    </div>
+    </div>
+        <footer>
+        <div class="made-by-section">
+            <p class="made-by">Designed & built by Robert Ortiz</p>
+            <p class="made-with">Website made using HTML,CSS, & JS</p>
+        </div>
+        </footer>    
+    </body>
+    </html>
