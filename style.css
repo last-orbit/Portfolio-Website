@@ -63,8 +63,7 @@ a:active {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 84%;
-    margin-top: 160px;
+    width: 88%;
     z-index: 1;
     margin: 100px auto 0 auto;
 }
