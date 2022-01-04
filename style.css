@@ -63,7 +63,7 @@ a:active {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 84%;
     margin-top: 160px;
     z-index: 1;
     margin: 100px auto 0 auto;
@@ -74,7 +74,7 @@ a:active {
     height: 300px;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .headshot{
@@ -112,7 +112,7 @@ a:active {
     margin: auto 0 auto 25px;
 }
 .main-blurb h1 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .icons{
@@ -158,7 +158,7 @@ a:active {
     flex-direction: column;
     background-color: var(--text-black);
     max-width: 374px;
-    height: 472px;
+    height: 460px;
     margin: 0 auto 20px auto;
     border-radius: 15px;
     overflow: hidden;
