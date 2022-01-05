@@ -1,5 +1,6 @@
 :root{
     --text-gray: #5a5d70;
+    --text-lgray: #898c99;
     --text-dbrown: #4A3F40;
     --text-dgreen: #404A3F;
     --text-black: #151518;
@@ -55,7 +56,7 @@ a, a:hover,
 a:focus,
 a:active {
     text-decoration: none;
-    color: var(--text-gray);
+    color: var(--text-lgray);
     margin: 15px 15px 0 0;
 }
 
