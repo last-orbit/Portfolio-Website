@@ -132,6 +132,9 @@ a:active {
     color: var(--text-gray);
 }
 
+#icon {
+margin: 15px 15px;
+}
 .fa-github:hover,
 .fa-envelope:hover,
 .fa-linkedin-in:hover,
@@ -161,11 +164,17 @@ a:active {
     text-align: center;
     flex-direction: column;
     background-color: var(--text-black);
-    max-width: 22.375rem;
-    height: 28.75rem;
+    max-width: 20.625rem;
+    height: 27.75rem;
     margin: 0 auto 20px auto;
     border-radius: 15px;
     overflow: hidden;
+    align-items: center;
+}
+
+.img-card p {
+    width: 85%;
+
 }
 
 .img-card h2,
@@ -181,7 +190,7 @@ h3 {
 
 .code{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 70%;
     margin: 0 auto 5px auto;
 }
@@ -196,14 +205,14 @@ h3 {
     background: rgb(119, 117, 117);  
     justify-content: center;
     align-items: center;
-    width: 45px;
+    width: 67px;
     height: 25px;
+    margin: 7px 12px;
 }
 
 .link-code{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 .about h1{
@@ -333,6 +342,19 @@ footer{
     }
 }
 
+@media only screen and (max-width:836px) {
+    .header:before{
+        margin-left: -58%;
+    }
+
+    .header:after{
+        margin-right: -58%;
+    }
+    .contact {
+        margin-bottom: 35px;
+    }
+}
+
 @media only screen and (max-width:768px) {
     .parent-container{
         width: 82%;
@@ -352,9 +374,28 @@ footer{
 
     .about{
         height: 350px;
+        margin-bottom: 40px;
     }
 
     .contact {
         height: 520px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .header:before{
+        margin-left: -62%;
+    }
+
+    .header:after{
+        margin-right: -62%;
+    }
+    .about{
+        height: 415px;
+    }
+
+    .contact {
+        height: 550px;
     }
 }
