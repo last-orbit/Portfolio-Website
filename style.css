@@ -55,8 +55,12 @@ a, a:hover,
 a:focus,
 a:active {
     text-decoration: none;
-    color: inherit;
+    color: var(--text-gray);
     margin: 15px 15px 0 0;
+}
+
+a:hover{
+    color: var(--text-white);
 }
 
 .parent-container{
@@ -135,6 +139,7 @@ a:active {
 #icon {
 margin: 15px 15px;
 }
+
 .fa-github:hover,
 .fa-envelope:hover,
 .fa-linkedin-in:hover,
