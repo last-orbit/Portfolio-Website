@@ -15,8 +15,8 @@
 ### The challenge
 
 - Create the first version of my portfolio website showcasing my coding projects and myself.
-**30/09/2023**
-- After finishing Kevin Powell's course on Conquering Responsive Layout. I decided to come back to my portfolio website and build the mobile view. I initially only made the desktop version of my portfolio website. What a difference it was for me to work mobile first as it cleared up a lot of my redundant code that I had in my first deployment.
+
+- **30/09/2023** After finishing Kevin Powell's course on Conquering Responsive Layout. I decided to come back to my portfolio website and build the mobile view. I initially only made the desktop version of my portfolio website. What a difference it was for me to work mobile first as it cleared up a lot of my redundant code that I had in my first deployment.
 
 ## My process
 
